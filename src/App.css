@@ -1,0 +1,26 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.map-section {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+/* Responsividade: em celulares o mapa fica em cima e a lista embaixo */
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column-reverse;
+  }
+  .sidebar {
+    width: 100%;
+    height: 50vh;
+  }
+  .map-section {
+    height: 50vh;
+  }
+}
