@@ -2,7 +2,7 @@
 
 Aplicação web desenvolvida em React para busca e localização de restaurantes próximos, utilizando mapas interativos (Leaflet / OpenStreetMap), geolocalização do navegador e rotas integradas com o Google Maps.
 
-> 🔗 **Deploy online:** [Link da Vercel virá aqui]
+> 🔗 **Deploy online:** [restaurant-finder-gold.vercel.app](https://restaurant-finder-gold.vercel.app/)
 
 ---
 
